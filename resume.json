@@ -1,0 +1,183 @@
+{
+    "data_lang": "zh-CN",
+    "ga_id": "UA-63818301-2",
+    "resume_title": "肖建芳 - 个人简历",
+    "name": "肖建芳",
+    "repo": "https://github.com/seirhsiao/resume.git",
+    "job_description": ["Java软件工程师", "Clojure软件工程师"],
+    "contact": {
+        "email": "309183912@qq.com",
+        "wechat": {
+            "id": "xjfweibo2012",
+            "qrcode": "static/wechat.svg"
+        },
+        "sinaweibo": {
+            "id": "RoyalGeek",
+            "url": "http://weibo.com/5605217010"
+        },
+        "github": {
+            "id": "seirhsiao"
+        },
+        "blog": {
+            "url": "http://blog.seirhsiao.com"
+        }
+    },
+    "links": [{
+        "type": "repo",
+        "url": "https://github.com/seirhsiao/resume"
+
+    }, {
+        "type": "pdf",
+        "url": "static/xiaojijanfang.pdf"
+
+    }, {
+        "type": "zhihu",
+        "url": "http://www.zhihu.com/people/seirhsiao"
+    }, {
+        "type": "doubanbook",
+        "url": "http://www.douban.com/people/seirhsiao/"
+    }],
+    "education": [{
+        "type": "undergraduate",
+        "name": "南昌航空大学",
+        "major": "电子商务",
+        "start": "2010",
+        "end": "2014",
+        "honor": [
+            "2010 - 2013 学年度 - **先进团员**",
+            "2013 - 2014 学年度 - **创新个人**"
+        ]
+    }],
+    "language": [{
+        "type": "english",
+        "certificate": [{
+            "type": "CET-4",
+            "full": "710",
+            "score": "580"
+        }, {
+            "type": "CET-6",
+            "full": "710",
+            "score": "616"
+        }],
+        "description": [
+            "能流畅阅读英文专业书籍、文档及其他资料",
+            "可无字幕观看 MOOC 课程、开发者大会视频",
+            "能够在英文邮件列表、Stack Overflow 等社区正常交流"
+        ]
+    }],
+    "experience": [{
+        "type": "internship",
+        "techtype": "Java,Clojure,Scala",
+        "place": "花旗金融信息服务(中国)有限公司",
+        "start": "2014.07",
+        "end": "至今",
+        "name": "Java软件开发&大数据分析",
+        "description": [
+            "多资产风险系统(`MARS`)是一个编制和报告的框架，用于计算各种金融衍生品德风险措施。",
+            "Mars 系统的日常维护与Daily数据处理,转换,加工，转换，生成报表等。",
+            "缓存管理服务，日志服务，故障管理，安全服务，通用组件服务，配置管理服务相关模块的开发。",
+            "采用的框架有：",
+            "`Restful`,`Wicket`,`Guice`,`AKKA`,`Kafka`;",
+            "`Spring`,`Structs2`,`Hibernate`等。",
+            "使用的技术有：",
+            "`Jenkins`,`Git`,`Maven`,Ehcache,Shiro,Json。",
+            "采用`Hive`，`Hbase`作为数据存储手段。"
+        ],
+        "stack": ["Restful", "Guice", "AKKA", "Kafka", "Spring"],
+        "compatibility": "IE8+"
+    }, {
+        "type": "internship",
+        "techtype": "Java软件开发",
+        "place": "无锡文思海辉有限公司",
+        "start": "2013.11",
+        "end": "2015.05",
+        "name": "公司实训",
+        "description": [
+            "参与集团内部办公系统（OA）的模块开发",
+            "基于 `Spring3`+ `Structs2` + `Hibernate`等实现前端`bootstrap`组件，中间件及后台数据交互。",
+            "彻底解决遗留的 bug 及浏览器兼容（`IE8+`）和中文乱码问题",
+            "采用 Lucene 开启全文搜索。",
+            "使用 `svn` 版本控制工具, `maven` 构建、编译、测试、部署工具, Hudson 用于项目持续集成工具。"
+
+        ],
+        "stack": ["Spring3", "Structs2", "Hibernate", "bootstrap", "Maven", "Svn"],
+        "compatibility": "IE8+"
+    }, {
+        "type": "internship",
+        "techtype": "Java,Android",
+        "place": "苏州高博Java&Android实训基地",
+        "start": "2013.07",
+        "end": "2013.11",
+        "name": "Android 开发",
+        "description": [
+            "android手机客户端的应用，为即将迈入婚礼殿堂的群体量身打造",
+            "本项目有以下几大板块：",
+            "1、电子请帖模块 2、爱乐购模块 3、商品活动模块4、婚礼统筹模块5、更多版块。",
+            "使用 `Vagepager`、`indicator` 及 `Fragment` 搭建整个架构",
+            "结合 `GestureDetector` 、`Actionbar`、`afinal`框架实现从服务器加载图片和文字和瀑布流",
+            "主要负责电子请帖，爱乐购，商品活动模块及后台服务器、数据库设计核心代码的实现。"
+        ],
+        "stack": ["indicator", "Fragment", "Actionbar", "afinal", "Vagepager", "GestureDetector"]
+    }],
+    "skills": [{
+        "type": "frontend",
+        "item": [{
+            "summary": "`HTML` / `CSS`",
+            "description": [
+                "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
+                "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
+            ]
+        }, {
+            "summary": "`JavaScript`（`jQuery`）",
+            "description": [
+                "熟悉 `jQuery`（`JavaScript`），对 `JavaScript 引擎`及相关 JIT 技术有一定的了解",
+                "了解 `jQuery` 新标准与相关后处理工具并能在项目中使用"
+            ]
+        }, {
+            "summary": "`DOM` / `BOM` 及常见 `Web API`",
+            "description": [
+                "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准（W3C / WHATWG），有桌面 / 移动端前端组件的开发经验",
+                "对 `WebGL` / `Web Workers` / `WebSocket` / `Web Components` / `SVG` 等 API 有一定的使用经验",
+                "阅读过 `WebKit` / `Blink` 源码中的部分实现，了解常见的 Web API **兼容性**问题及其解决方案"
+            ]
+        }]
+    }, {
+        "type": "backend",
+        "item": [{
+            "summary": "`java`",
+            "description": [
+                "掌握面向对象的软件分析、设计方法以及设计模式；",
+                "掌握Java基础知识，Jdbc编程开发，JavaEE，Android基础编程等编程技术；",
+                "熟悉B/S结构，MVC模式，RESTful for Java,JPA,Struts2、Spring、Hibernate；",
+                "掌握JavaEE技术Jsp、Servlet、Html、Xml、Css、JavaScript、Json等WEB开发技术;",
+                "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案"
+            ]
+        }, {
+            "summary": "`clojure`",
+            "description": [
+                "掌握Clojure函数式编程语言基础知识，及其框架应用；",
+                "掌握Leiningen,ring,Compojure,Noir,luminus,pedestal；",
+                "掌握clojure macro,test,STM模型;",
+                "掌握Clojure大数据分析与处理；",
+                "能够简单使用RESTfull API编写web应用。"
+            ]
+        }, {
+            "summary": "其他",
+            "description": [
+                "使用 `Tomcat` / `Apache`（`JaveEE`） 搭建过简单的服务器",
+                "有使用 `Server2005/2008`、`Oracle` 、`MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
+                "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
+            ]
+        }]
+    }, {
+        "type": "miscellaneous",
+        "item": [
+            "三年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
+            "熟悉多种平台与编译环境下的 `C` / `java` 及其新标准，编写过简单的解释器",
+            "熟悉 `Java` `clojure`，机器学习算法及分布式程序（参见 GitHub）",
+            "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
+            "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
+            "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+        ]
+    }]
+}
